@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fa">
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css"/>
+    <link rel="stylesheet" href="https://aut.ac.ir/templates/tmpl_modern01/css/tailwind.min.css">
     <style>
       .card{
         border: 4px solid #2b6cb0;
@@ -28,224 +28,386 @@
       .font-medium {
         font-size: 15.5px;
       }
-      .address-card{
+      .address-card {
         border: 2px dashed #3c6da1;
         background-color: #ffffff;
         background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d3b77b' fill-opacity='0.33' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
       }
     </style>
+    <script>
+      var element = document.querySelector(".yw_cnt");
+      element.classList.remove("yw_cnt");
+    </script>
   </head>
   <body dir="rtl">
     <section class="text-gray-700 text-sm leading-relaxed body-font">
       <div class="mx-auto">
-        <h3 class="text-gray-900 title-font font-medium text-xl p-5 text-center">
+        <h3
+          class="text-gray-900 title-font font-medium text-xl p-5 text-center"
+        >
           ریاست دانشکده
         </h3>
-        <hr class="mb-5">
+        <hr class="mb-5" />
+        <div class="flex flex-wrap -m-2 justify-center">
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div
+              class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
+            >
+              <!-- src="./files/ce/images/%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C/h_zarandi.jpg" -->
+              <img
+                class="w-30 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
+                src="./files/ce/images/%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C/Dr-zarandi.jpg"
+              />
+              <div class="flex-grow">
+                <h3 class="text-gray-900 title-font font-medium font-semibold">
+                  دکتر حمیدرضا زرندی
+                </h3>
+                <p class="text-blue-500 my-1 text-sm">ریاست دانشکده</p>
+                <hr class="mt-1 mb-2" />
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  دفتر دانشکده: ۲۷۰۰
+                </p>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  تلفن - فکس:
+                  <a
+                    href="tel:664194110"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >۶۶۴۱۹۴۱۱۰</a
+                  >
+                </p>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  مسئول دفتر: مریم سلیمانی
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3
+          class="text-gray-900 title-font font-medium text-xl p-5 text-center"
+        >
+          معاونین
+        </h3>
+        <hr class="mb-5" />
         <div class="flex flex-wrap -m-2 justify-center">
           <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
             <div
               class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
             >
               <img
-                alt="team"
                 class="w-30 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
-                src="./files/ce/images/%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C/h_zarandi.jpg"
+                src="./files/ce/images/%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C/fallah.jpg"
               />
               <div class="flex-grow">
                 <h3 class="text-gray-900 title-font font-medium font-semibold">
-                    دکتر حمیدرضا زرندی
+                  دکتر مهران سلیمان فلاح
                 </h3>
-                <p class="text-blue-500 my-1 text-sm">ریاست دانشکده</p>
-                <hr class="mt-1 mb-2">
-                <p class="text-gray-700 text-sm leading-relaxed">دفتر دانشکده: ۲۷۰۰</p>
-                <p class="text-gray-700 text-sm leading-relaxed">تلفن - فکس: <a href="tel:664194110" class="text-gray-700 text-sm leading-relaxed tracking-wider">۶۶۴۱۹۴۱۱۰</a></p>
-                <p class="text-gray-700 text-sm leading-relaxed">مسئول دفتر: مریم سلیمانی</p>
+                <p class="text-blue-500 my-1 text-sm">
+                  آموزشی و تحصیلات تکمیلی
+                </p>
+                <hr class="mt-1 mb-2" />
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  رایانامه:
+                  <a
+                    href="mailto:msfallah@aut.ac.ir?subject=موضوع%20شما&body=سلام"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >msfallah@aut.ac.ir</a
+                  >
+                </p>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  تلفن - فکس:
+                  <a
+                    href="tel:64542718"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >۶۴۵۴۲۷۱۸</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div
+              class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
+            >
+              <img
+                class="w-30 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
+                style="height: 120px"
+                src="./files/ce/images/%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C/Dr_Bakhshi.jpg-small.jfif"
+              />
+              <div class="flex-grow">
+                <h3 class="text-gray-900 title-font font-medium font-semibold">
+                  دکتر بهادر بخشی سراسکانرود
+                </h3>
+                <p class="text-blue-500 my-1 text-sm">
+                  پژوهشی و امـور بین‌ الملل
+                </p>
+                <hr class="mt-1 mb-2" />
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  رایانامه:
+                  <a
+                    href="mailto:bbakhshi@aut.ac.ir?subject=موضوع%20شما&body=سلام"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >bbakhshi@aut.ac.ir</a
+                  >
+                </p>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  تلفن - فکس:
+                  <a
+                    href="tel:64542723"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >۶۴۵۴۲۷۲۳</a
+                  >
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <h3 class="text-gray-900 title-font font-medium text-xl p-5 text-center">
-            معاونین
+        <h3
+          class="text-gray-900 title-font font-medium text-xl p-5 text-center"
+        >
+          کارشناسان آموزشی
         </h3>
-        <hr class="mb-5">
+        <hr class="mb-5" />
         <div class="flex flex-wrap -m-2 justify-center">
-            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div
-                class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card "
-              >
-                <img
-                  alt="team"
-                  class="w-30 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
-                  src="./files/ce/images/%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C/fallah.jpg"
-                />
-                <div class="flex-grow">
-                  <h3 class="text-gray-900 title-font font-medium font-semibold">
-                    دکتر مهران سلیمان فلاح
-                  </h3>
-                  <p class="text-blue-500 my-1 text-sm">آموزشی و تحصیلات تکمیلی</p>
-                  <hr class="mt-1 mb-2">
-                  <p class="text-gray-700 text-sm leading-relaxed">رایانامه: <a href="mailto:msfallah@aut.ac.ir?subject=موضوع%20شما&body=سلام" class="text-gray-700 text-sm leading-relaxed tracking-wider">msfallah@aut.ac.ir</a></p>
-                  <p class="text-gray-700 text-sm leading-relaxed">تلفن - فکس: <a href="tel:64542718" class="text-gray-700 text-sm leading-relaxed tracking-wider">۶۴۵۴۲۷۱۸</a></p>
-                </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div
+              class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
+            >
+              <img
+                class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
+                style="height: 104px; width: 85px"
+                src="https://cdn0.iconfinder.com/data/icons/uae-travel/512/b189_5-512.png"
+              />
+              <div class="flex-grow">
+                <h3 class="text-gray-900 title-font font-medium font-semibold">
+                  مینا رضایی
+                </h3>
+                <p class="text-blue-500 my-1 text-sm">کارشناسی</p>
+                <hr class="mt-1 mb-2" />
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  رایانامه:
+                  <a
+                    href="mailto:minar@aut.ac.ir?subject=موضوع%20شما&body=سلام"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >minar@aut.ac.ir</a
+                  >
+                </p>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  تلفن:
+                  <a
+                    href="tel:64542719"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >۶۴۵۴۲۷۱۹</a
+                  >
+                </p>
               </div>
             </div>
-            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-                <div
-                  class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
-                >
-                  <img
-                    alt="team"
-                    class="w-30 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4" style="height: 120px;"
-                    src="./files/ce/images/%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C/Dr_Bakhshi.jpg-small.jfif"
-                  />
-                  <div class="flex-grow">
-                    <h3 class="text-gray-900 title-font font-medium font-semibold">
-                        دکتر بهادر بخشی سراسکانرود
-                    </h3>
-                    <p class="text-blue-500 my-1 text-sm">پژوهشی و امـور بین‌ الملل</p>
-                    <hr class="mt-1 mb-2">
-                    <p class="text-gray-700 text-sm leading-relaxed">رایانامه: <a href="mailto:bbakhshi@aut.ac.ir?subject=موضوع%20شما&body=سلام" class="text-gray-700 text-sm leading-relaxed tracking-wider">bbakhshi@aut.ac.ir</a></p>
-                    <p class="text-gray-700 text-sm leading-relaxed">تلفن - فکس: <a href="tel:64542723" class="text-gray-700 text-sm leading-relaxed tracking-wider">۶۴۵۴۲۷۲۳</a></p>
-                </div>
-                </div>
-              </div>
           </div>
-          <h3 class="text-gray-900 title-font font-medium text-xl p-5 text-center">
-            کارشناسان آموزشی
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div
+              class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
+            >
+              <img
+                class="w-20 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
+                src="./files/ce/images/%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86/Sabzali.jpg"
+              />
+              <div class="flex-grow">
+                <h3 class="text-gray-900 title-font font-medium font-semibold">
+                  هانیه سبزعلی
+                </h3>
+                <p class="text-blue-500 my-1 text-sm">کارشناسی‌ ارشد</p>
+                <hr class="mt-1 mb-2" />
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  رایانامه:
+                  <a
+                    href="mailto:minar@aut.ac.ir?subject=موضوع%20شما&body=سلام"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >minar@aut.ac.ir</a
+                  >
+                </p>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  تلفن:
+                  <a
+                    href="tel:64542703"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >۶۴۵۴۲۷۰۳</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div
+              class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
+            >
+              <img
+                class="w-20 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
+                src="./files/ce/images/%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86/alipour_(1).jpg"
+              />
+              <div class="flex-grow">
+                <h3 class="text-gray-900 title-font font-medium font-semibold">
+                  عذری علی‌پور
+                </h3>
+                <p class="text-blue-500 my-1 text-sm">دکتری</p>
+                <hr class="mt-1 mb-2" />
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  رایانامه:
+                  <a
+                    href="mailto:minar@aut.ac.ir?subject=موضوع%20شما&body=سلام"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >minar@aut.ac.ir</a
+                  >
+                </p>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  تلفن:
+                  <a
+                    href="tel:64542738"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >۶۴۵۴۲۷۳۸</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3
+          class="text-gray-900 title-font font-medium text-xl p-5 text-center"
+        >
+          سایر اعضا
         </h3>
-        <hr class="mb-5">
+        <hr class="mb-5" />
         <div class="flex flex-wrap -m-2 justify-center">
-            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div
-                class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
-              >
-                <img
-                  alt="team"
-                  class="w-20 h-20 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4" style="height: 104px; width: 85px;"
-                  src="./files/ce/images/%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86/gharaee.jpg"
-                />
-                <div class="flex-grow">
-                  <h3 class="text-gray-900 title-font font-medium font-semibold">
-                    سمیه قرائی
-                  </h3>
-                  <p class="text-blue-500 my-1 text-sm">کارشناسی</p>
-                  <hr class="mt-1 mb-2">
-                  <p class="text-gray-700 text-sm leading-relaxed">تلفن: <a href="tel:64542719" class="text-gray-700 text-sm leading-relaxed tracking-wider">۶۴۵۴۲۷۱۹</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div
-                class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
-              >
-                <img
-                  alt="team"
-                  class="w-20 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
-                  src="./files/ce/images/%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86/Sabzali.jpg"
-                />
-                <div class="flex-grow">
-                  <h3 class="text-gray-900 title-font font-medium font-semibold">
-                    هانیه سبزعلی
-                  </h3>
-                  <p class="text-blue-500 my-1 text-sm">کارشناسی‌ ارشد</p>
-                  <hr class="mt-1 mb-2">
-                  <p class="text-gray-700 text-sm leading-relaxed">تلفن: <a href="tel:64542703" class="text-gray-700 text-sm leading-relaxed tracking-wider">۶۴۵۴۲۷۰۳</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div
-                class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
-              >
-                <img
-                  alt="team"
-                  class="w-20 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
-                  src="./files/ce/images/%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86/alipour_(1).jpg"
-                />
-                <div class="flex-grow">
-                  <h3 class="text-gray-900 title-font font-medium font-semibold">
-                    عذری علی‌پور
-                  </h3>
-                  <p class="text-blue-500 my-1 text-sm">دکتری</p>
-                  <hr class="mt-1 mb-2">
-                  <p class="text-gray-700 text-sm leading-relaxed">تلفن: <a href="tel:64542738" class="text-gray-700 text-sm leading-relaxed tracking-wider">۶۴۵۴۲۷۳۸</a></p>
-                </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div
+              class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
+            >
+              <img
+                class="w-20 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
+                src="./files/ce/images/%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86/abdi-web.jpg"
+              />
+              <div class="flex-grow">
+                <h3 class="text-gray-900 title-font font-medium font-semibold">
+                  مهندس جعفر عبدی
+                </h3>
+                <p class="text-blue-500 my-1 text-sm">
+                  مشاور و دبیر شوراهای دانشکده
+                </p>
+                <hr class="mt-1 mb-2" />
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  تلفن:
+                  <a
+                    href="tel:664194110"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >۶۶۴۱۹۴۱۱۰ - ۲۷۰۰ (۶۴۵۴)</a
+                  >
+                </p>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  فکس:
+                  <a
+                    href="fax:66495521"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >۶۶۴۹۵۵۲۱</a
+                  >
+                </p>
               </div>
             </div>
           </div>
-          <h3 class="text-gray-900 title-font font-medium text-xl p-5 text-center">
-            سایر اعضا
-          </h3>
-          <hr class="mb-5">
-          <div class="flex flex-wrap -m-2 justify-center">
-            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div
-                class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
-              >
-                <img
-                  alt="team"
-                  class="w-20 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
-                  src="./files/ce/images/%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86/abdi-web.jpg"
-                />
-                <div class="flex-grow">
-                  <h3 class="text-gray-900 title-font font-medium font-semibold">
-                    مهندس جعفر عبدی
-                  </h3>
-                  <p class="text-blue-500 my-1 text-sm">مشاور و دبیر شوراهای دانشکده</p>
-                  <hr class="mt-1 mb-2">
-                  <p class="text-gray-700 text-sm leading-relaxed">تلفن: <a href="tel:664194110" class="text-gray-700 text-sm leading-relaxed tracking-wider">۶۶۴۱۹۴۱۱۰ - ۲۷۰۰ (۶۴۵۴)</a></p>
-                  <p class="text-gray-700 text-sm leading-relaxed">فکس: <a href="fax:66495521" class="text-gray-700 text-sm leading-relaxed tracking-wider">۶۶۴۹۵۵۲۱</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div
-                class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
-              >
-                <img
-                  alt="team"
-                  class="w-20 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
-                  src="./files/ce/images/%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86/saboohi.jpg"
-                />
-                <div class="flex-grow">
-                  <h3 class="text-gray-900 title-font font-medium font-semibold">
-                    بهنام صبوحی
-                  </h3>
-                  <p class="text-blue-500 my-1 text-sm">مسئول پشتیبانی (اداری)</p>
-                  <hr class="mt-1 mb-2">
-                  <p class="text-gray-700 text-sm leading-relaxed">تلفن: <a href="tel:664194110" class="text-gray-700 text-sm leading-relaxed tracking-wider">۶۶۴۱۹۴۱۱۰ - ۲۷۰۰ (۶۴۵۴)</a></p>
-                  <p class="text-gray-700 text-sm leading-relaxed">فکس: <a href="fax:66495521" class="text-gray-700 text-sm leading-relaxed tracking-wider">۶۶۴۹۵۵۲۱</a></p>
-                </div>
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div
+              class="h-full flex items-center border-blue-700 border-4 p-4 rounded-lg card"
+            >
+              <img
+                class="w-20 h-30 bg-gray-100 object-cover object-center flex-shrink-0 rounded-md ml-4"
+                src="./files/ce/images/%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86/saboohi.jpg"
+              />
+              <div class="flex-grow">
+                <h3 class="text-gray-900 title-font font-medium font-semibold">
+                  بهنام صبوحی
+                </h3>
+                <p class="text-blue-500 my-1 text-sm">مسئول پشتیبانی (اداری)</p>
+                <hr class="mt-1 mb-2" />
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  تلفن:
+                  <a
+                    href="tel:664194110"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >۶۶۴۱۹۴۱۱۰ - ۲۷۰۰ (۶۴۵۴)</a
+                  >
+                </p>
+                <p class="text-gray-700 text-sm leading-relaxed">
+                  فکس:
+                  <a
+                    href="fax:66495521"
+                    class="text-gray-700 text-sm leading-relaxed tracking-wider"
+                    >۶۶۴۹۵۵۲۱</a
+                  >
+                </p>
               </div>
             </div>
           </div>
-          <h3 class="text-gray-900 title-font font-medium text-xl p-5 text-center">
-            راه های ارتباطی
-          </h3>
-          <hr class="mb-5">
-          <section dir="ltr" class="text-gray-700 body-font relative">
-            <div class="container px-5 mx-auto flex sm:flex-no-wrap flex-wrap">
-              <div class="w-full md:h-64 bg-gray-300 rounded-lg overflow-hidden p-10 flex items-end justify-start relative" style="height: 400px;">
-                <iframe class="absolute inset-0" style="filter: grayscale(0.3) contrast(1) opacity(0.8) saturate(1.7); border: 4px solid #2d6aac;" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1362.2136198415985!2d51.4076180721891!3d35.703875168104936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e010d1bda6451%3A0xb68840e07e8e513!2sComputer%20Engineering%20%26%20IT%20Department!5e0!3m2!1sen!2s!4v1590930818420!5m2!1sen!2s" width="100%" height="100%" frameborder="0"></iframe>
-                <div dir="rtl" class="address-card relative flex flex-wrap py-2 mx-auto">
-                  <div class="lg:w-auto px-6">
-                    <h3 class="title-font font-medium text-gray-900 tracking-widest text-sm">آدرس</h3>
-                    <p class="leading-relaxed">ایران - تهران - میدان ولیعصر - خیابان حافظ - پلاک ۳۵۰</p>
-                    <!-- <p class="flex justify-center">
+        </div>
+        <h3
+          class="text-gray-900 title-font font-medium text-xl p-5 text-center"
+        >
+          راه های ارتباطی
+        </h3>
+        <hr class="mb-5" />
+        <section dir="ltr" class="text-gray-700 body-font relative">
+          <div class="container px-5 mx-auto flex sm:flex-no-wrap flex-wrap">
+            <div
+              class="w-full md:h-64 bg-gray-300 rounded-lg overflow-hidden p-10 flex items-end justify-start relative"
+              style="height: 400px"
+            >
+              <iframe
+                class="absolute inset-0"
+                style="
+                  filter: grayscale(0.3) contrast(1) opacity(0.8) saturate(1.7);
+                  border: 4px solid #2d6aac;
+                "
+                title="map"
+                marginheight="0"
+                marginwidth="0"
+                scrolling="no"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1362.2136198415985!2d51.4076180721891!3d35.703875168104936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e010d1bda6451%3A0xb68840e07e8e513!2sComputer%20Engineering%20%26%20IT%20Department!5e0!3m2!1sen!2s!4v1590930818420!5m2!1sen!2s"
+                width="100%"
+                height="100%"
+                frameborder="0"
+              ></iframe>
+              <div
+                dir="rtl"
+                class="address-card relative flex flex-wrap py-2 mx-auto"
+              >
+                <div class="lg:w-auto px-6">
+                  <h3
+                    class="title-font font-medium text-gray-900 tracking-widest text-sm"
+                  >
+                    آدرس
+                  </h3>
+                  <p class="leading-relaxed">
+                    ایران - تهران - میدان ولیعصر - خیابان حافظ - پلاک ۳۵۰
+                  </p>
+                  <!-- <p class="flex justify-center">
                       <a class="leading-relaxed"><small>پست: </small>۴۴۱۳-۱۵۸۷۵</a>
                     </p> -->
-                    <p class="flex justify-between">
-                      <a href="tel:+982164540" class="leading-relaxed"><small>تلفن: </small>۶۴۵۴۰ (۲۱) ۹۸+</a>
-                      <a href="mailto:info@aut.ac.ir?subject=موضوع%20شما&body=سلام" class="text-indigo-500 leading-relaxed"><small>ایمیل: </small>info@aut.ac.ir</a>
-                    </p>
-                  </div>
+                  <p class="flex justify-between">
+                    <a href="tel:+982164540" class="leading-relaxed"
+                      ><small>تلفن: </small>۶۴۵۴۰ (۲۱) ۹۸+</a
+                    >
+                    <a
+                      href="mailto:info@aut.ac.ir?subject=موضوع%20شما&body=سلام"
+                      class="text-indigo-500 leading-relaxed"
+                      ><small>ایمیل: </small>info@aut.ac.ir</a
+                    >
+                  </p>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
       </div>
     </section>
+    <script>
+      var element = document.querySelector(".yw_cnt");
+      element.classList.remove("yw_cnt");
+    </script>
   </body>
 </html>
-
