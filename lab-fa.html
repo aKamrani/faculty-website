@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <link rel="stylesheet" href="https://aut.ac.ir/templates/tmpl_modern01/css/tailwind.min.css">
+    <style>
+      .border-b-2{
+        border-bottom: 2px solid;
+      }
+      .border-indigo-500 {
+        border-color: #667eea !important;
+      }
+      .border-gray-300 {
+        border-color: #b4c0cf; 
+      }
+      .border-t {
+        border-top: 1px solid;
+      }
+      .border-b {
+        border-bottom: 1px solid;
+      }
+      .member{
+        display: inline-flex; 
+        border-radius: 12px;
+        font-size: 14px;
+      }
+      @media only screen and (min-width: 1024px) {
+        .lg\:w-2\/5 {
+          width: 505px;
+        }
+      }
+      @media only screen and (min-width: 1024px) {
+        .lg\:w-3\/5 {
+          width: calc(100% - 505px);
+        }
+      }
+    </style>
+    <script>
+      document.querySelector(".yw_cnt").classList.remove("yw_cnt");
+    </script>
+    <script>
+      document.querySelector(".yw_text").classList.remove("yw_text");
+    </script>
+  </head>
+  <body dir="rtl">
+    <section class="text-gray-700 body-font overflow-hidden">
+      <div class="py-12 mx-auto">
+        <div class="flex flex-wrap">
+          <div class="lg:w-2/5 w-full lg:pl-10 lg:py-6 mb-6 lg:mb-0">
+            <h1 class="text-sm title-font text-gray-500 tracking-widest">آزمایشگاه</h1>
+            <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">شبکه های کامپیوتری پر سرعت</h1>
+            <div class="flex mb-4">
+              <a onclick="tabCtrl(event, 'intro');" class="tab cursor-pointer text-base sm:px-6 py-3 w-1/2 justify-center border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-indigo-500 text-indigo-500 tracking-wider rounded-t">
+                معرفی
+              </a>
+              <a onclick="tabCtrl(event, 'head');" class="tab cursor-pointer text-base sm:px-6 py-3 w-1/2 justify-center border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-300 hover:text-gray-900 tracking-wider">
+                سرپرست
+              </a>
+              <a onclick="tabCtrl(event, 'equipments');" class="tab cursor-pointer text-base sm:px-6 py-3 w-1/2 justify-center border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-300 hover:text-gray-900 tracking-wider">
+                امکانات
+              </a>
+              <a onclick="tabCtrl(event, 'members');" class="tab cursor-pointer text-base sm:px-6 py-3 w-1/2 justify-center border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-300 hover:text-gray-900 tracking-wider">
+                اعضا
+              </a>
+              <a onclick="tabCtrl(event, 'articles');" class="tab cursor-pointer text-base sm:px-6 py-3 w-1/2 justify-center border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-300 hover:text-gray-900 tracking-wider">
+                مقالات
+              </a>
+            </div>
+            <div id="intro" class="w3-container content">
+              <p class="leading-relaxed mb-4 text-base text-justify overflow-auto" style="max-height: 210px;">
+                معرفی آزمایشگاه: در این قسمت متنی که سرپرست آزمایشگاه به منظور معرفی آز مربوطه ارسال کرده است نمایش داده خواهد شد.این متن ممکن است چندین پاراگراف باشد
+                معرفی آزمایشگاه: در این قسمت متنی که سرپرست آزمایشگاه به منظور معرفی آز مربوطه ارسال کرده است نمایش داده خواهد شد.این متن ممکن است چندین پاراگراف باشد
+                معرفی آزمایشگاه: در این قسمت متنی که سرپرست آزمایشگاه به منظور معرفی آز مربوطه ارسال کرده است نمایش داده خواهد شد.این متن ممکن است چندین پاراگراف باشد
+              </p>
+              <div class="flex border-t border-gray-300 py-2">
+                <span class="text-gray-500 text-base" >رایانامه</span>
+                <a class="mr-auto text-blue-600 text-base" href="mailto:lab@aut.ac.ir?subject=موضوع%20شما&body=سلام">lab[at]aut.ac.ir</a>
+              </div>
+              <div class="flex border-t border-gray-300 py-2">
+                <span class="text-gray-500 text-base">تلفن</span>
+                <a class="mr-auto text-blue-600 text-base" href="tel:64542720">۶۴۵۴۲۷۲۰</a>
+              </div>
+              <div class="flex border-t border-gray-300 py-2">
+                <span class="text-gray-500 text-base">آدرس سایت</span>
+                <a target="_blank" class="mr-auto text-blue-600 text-base" href="http://www.lab.ir"">www.lab.ir</span>
+              </div>
+              <div class="flex border-t border-gray-300 py-2">
+                <span class="text-gray-500 text-base">سرپرست</span>
+                <span class="mr-auto text-gray-900 text-base">دکتر خرسندی</span>
+              </div>
+              <div class="flex border-t border-b mb-6 border-gray-300 py-2">
+                <span class="text-gray-500 text-base">تعداد اعضا</span>
+                <span class="mr-auto text-gray-900 text-base">۲۰ نفر</span>
+              </div>
+            </div>
+            <div id="head" class="w3-container content" style="display:none">
+              <div class="h-full flex rounded-lg sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-right" style="border: 4px solid #2b6cb0;">
+                <a href="http://aut.ac.ir/cv/2261/سیاوش خرسندی">
+                  <img class="flex-shrink-0 rounded-lg object-cover object-center mb-4 lg:mr-6 md:mr-6 mt-5" style="min-width: 7.6rem; max-width: 7.6rem; min-height: 10rem; max-height: 10rem;" src="./files/ce/images/%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C/khorsand.jpg" alt="team" />
+                </a>
+                  <div class="flex-grow sm:pr-8">
+                    <h3 class="title-font font-medium text-lg text-gray-900 md:mt-2 ms:mt-2 lg:mt-2 font-semibold">
+                      <a class="text-blue-700" href="http://aut.ac.ir/cv/2261/سیاوش خرسندی">سیاوش خرسندی</a>
+                    </h3>
+                    <h3 class="text-blue-500 my-1 text-base">دانشیار</h3>
+                    <hr class="mt-1 mb-2 lg:w-11/12 md:w-11/12 w-full" />
+                    <p class="text-sm leading-relaxed" style="margin-top: 0px !important;">
+                      گروه آموزشی: معماری و شبکه&zwnj;های کامپیوتری
+                    </p>
+                    <p class="text-sm leading-relaxed" style="margin-top: 0px !important;">
+                      علایق پژوهشی:
+                      <small class="interest-tag" style="display: inline-block; border: 1px solid #8c8c8c; background-color: #f4faff; margin: 1px; padding: 1px 10px; border-radius: 16px; line-height: 2.1; font-size: .8rem;">
+                        شبکه‌های کامپیوتری
+                      </small>
+                      <small class="interest-tag" style="display: inline-block; border: 1px solid #8c8c8c; background-color: #f4faff; margin: 1px; padding: 1px 10px; border-radius: 16px; line-height: 2.1; font-size: .8rem;">
+                        شبکه‌های کامپیوتری
+                      </small>
+                    </p>
+                    <p class="text-sm leading-relaxed tracking-wider" style="margin-top: 0px !important;">
+                      رایانامه: 
+                      <a class="text-blue-600" href="mailto:khorsandi@aut.ac.ir?subject=موضوع%20شما&amp;body=سلام">
+                        khorsandi[at]aut.ac.ir
+                      </a>
+                    </p>
+                    <p class="text-sm leading-relaxed tracking-wider mb-5" style="margin-top: 0px !important;">
+                      تلفن: 
+                      <a class="text-blue-600" href="tel:64542706">
+                        ۶۴۵۴۲۷۰۶
+                      </a>
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div id="equipments" class="w3-container content overflow-auto" style="max-height: 430px; display:none">
+              <p class="leading-relaxed mb-4 text-base text-justify">
+                در این قسمت متنی که سرپرست آزمایشگاه به منظور معرفی آز مربوطه ارسال کرده است نمایش داده خواهد شد.این متن ممکن است چندین پاراگراف باشد
+                در این قسمت متنی که سرپرست آزمایشگاه به منظور معرفی آز مربوطه ارسال کرده است نمایش داده خواهد شد.این متن ممکن است چندین پاراگراف باشد
+                در این قسمت متنی که سرپرست آزمایشگاه به منظور معرفی آز مربوطه ارسال کرده است نمایش داده خواهد شد.این متن ممکن است چندین پاراگراف باشد
+                در این قسمت متنی که سرپرست آزمایشگاه به منظور معرفی آز مربوطه ارسال کرده است نمایش داده خواهد شد.این متن ممکن است چندین پاراگراف باشد
+              </p>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 ml-4" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path><path d="M22 4L12 14.01l-3-3"></path></svg>
+                <span class="title-font font-medium">۲۰ عدد سیستم کامپیوتر رومیزی</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 ml-4" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path><path d="M22 4L12 14.01l-3-3"></path></svg>
+                <span class="title-font font-medium">۲ عدد پروژکتور</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 ml-4" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path><path d="M22 4L12 14.01l-3-3"></path></svg>
+                <span class="title-font font-medium">۷ عدد سرور HP</span>
+              </div>
+            </div>
+            <div id="members" class="w3-container content mr-3" style="display:none">
+              <div class="member m-1 bg-gray-200 rounded flex p-2 items-center">
+                <span class="title-font font-medium">علی پهلوان</span>
+              </div>
+              <div class="member m-1 bg-gray-200 rounded flex p-2 items-center" style="display: inline-flex; border-radius: 10px;">
+                <span class="title-font font-medium">پیام صالحی</span>
+              </div>
+              <div class="member m-1 bg-gray-200 rounded flex p-2 items-center" style="display: inline-flex; border-radius: 10px;">
+                <span class="title-font font-medium">سیامک خواهانی</span>
+              </div>
+              <div class="member m-1 bg-gray-200 rounded flex p-2 items-center" style="display: inline-flex; border-radius: 10px;">
+                <span class="title-font font-medium">برزویه بدیهی</span>
+              </div>
+              <div class="member m-1 bg-gray-200 rounded flex p-2 items-center" style="display: inline-flex; border-radius: 10px;">
+                <span class="title-font font-medium">محمد بیگدلی</span>
+              </div>
+              <div class="member m-1 bg-gray-200 rounded flex p-2 items-center" style="display: inline-flex; border-radius: 10px;">
+                <span class="title-font font-medium">همایون سعیدی</span>
+              </div>
+              <div class="member m-1 bg-gray-200 rounded flex p-2 items-center" style="display: inline-flex; border-radius: 10px;">
+                <span class="title-font font-medium">امیر نوروزی</span>
+              </div>
+              <div class="member m-1 bg-gray-200 rounded flex p-2 items-center" style="display: inline-flex; border-radius: 10px;">
+                <span class="title-font font-medium">محمدرضا محسنی کیا</span>
+              </div>
+              <div class="member m-1 bg-gray-200 rounded flex p-2 items-center" style="display: inline-flex; border-radius: 10px;">
+                <span class="title-font font-medium">رضا میرضایی</span>
+              </div>
+              <div class="member m-1 bg-gray-200 rounded flex p-2 items-center" style="display: inline-flex; border-radius: 10px;">
+                <span class="title-font font-medium">امیرحسین کامرانی</span>
+              </div>
+            </div>
+            <div id="articles" class="w3-container content overflow-auto" style="max-height: 410px; display:none">
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۱ و توضیحات و منبع و مجله تست مقاله ۱ و توضیحات و منبع و مجله تست مقاله ۱ و توضیحات و منبع و مجله تست مقاله ۱ و توضیحات و منبع و مجله تست مقاله ۱ و توضیحات و منبع و مجله تست</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۲</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۳</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۴</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۵</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۶</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۷</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۸</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۹</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۱۰</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۱۱</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۱۲</span>
+              </div>
+              <div class="m-2 bg-gray-200 rounded flex p-2 items-center h-auto">
+                <span class="title-font font-medium text-justify">مقاله ۱۳</span>
+              </div>
+            </div>
+          </div>
+          <img alt="ecommerce" style="max-height: 600px; min-height: 600px;" class="lg:w-3/5 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://iim.webs.upv.es/images/lab_networking_1.jpg">
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function tabCtrl(evt, name) {
+        console.log(evt)
+        var i, x, tablinks;
+        x = evt.target.parentElement.parentElement.children;
+        for (i = 0; i < x.length; i++) {
+          if (x[i].classList.contains("content")) {
+            x[i].style.display = "none";
+            console.log(x[i].style)
+          }
+        }
+        tablinks = evt.target.parentElement.parentElement.children[2].children;
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace("border-indigo-500", "border-gray-300");
+          tablinks[i].className = tablinks[i].className.replace("bg-gray-100", "");
+          tablinks[i].className = tablinks[i].className.replace("text-indigo-500", "");
+        }
+        x = evt.target.parentElement.parentElement.children;
+        for (i = 0; i < x.length - 1; i++) {
+          if ( x[i].id == name ) {
+            x[i].style.display = "block";
+          }
+        }
+        evt.target.className += " text-indigo-500";
+        evt.target.className += " border-indigo-500 bg-gray-100";
+      }
+      </script>
+  </body>
+</html>
